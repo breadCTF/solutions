@@ -12,7 +12,7 @@ minima:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-coffeescript 
+  - jekyll-coffeescript
   - jekyll-commonmark-ghpages
   - jekyll-gist
   - jekyll-github-metadata
@@ -22,7 +22,13 @@ plugins:
   - jekyll-readme-index
   - jekyll-default-layout
   - jekyll-titles-from-headings
-  
+
 header_pages:
   - about.md
   - portfolio.md
+
+exclude:
+  - HACKvent/
+  - HTB/
+  - TMHC/
+
