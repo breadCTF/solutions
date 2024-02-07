@@ -1,0 +1,1 @@
+echo "print(open('/app/flag').read())" > /app/chall.py

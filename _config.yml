@@ -1,0 +1,28 @@
+theme: minima
+title: Breads ctf
+author:
+  name: bread
+description: Bookmark this to keep an eye on my project updates!
+
+minima:
+  skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/breadCTF/" }
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-coffeescript 
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  
+header_pages:
+  - about.md
+  - portfolio.md
